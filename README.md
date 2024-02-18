@@ -25,11 +25,7 @@ Before getting started, make sure you have the following tools installed:
 ## Usage
 
 1. Start the Node.js backend:
-   ```bash```
-   cd exercice
-   npm start
-1. Start the Angular front-end:
-   ```bash```
-    cd front-end
-    ng serve
+   ```bash cd exercice && npm start```
+2. Start the Angular front-end:
+   ```bashcd cd front-end && ng serve```
 
