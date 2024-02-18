@@ -8,7 +8,11 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
-app.use(cors())
+
+// Middleware CORS configuré avec les options appropriées
+app.use(cors({
+    origin: 'http://localhost:4200' // Autoriser les requêtes uniquement depuis cette origine
+}));
 
 const studentRouter = require('./routes/student');
 
