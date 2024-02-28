@@ -35,5 +35,11 @@
 .spotify__top-nav_focus_title{
   flex-basis: 600px;
   margin-left: -200px;
+  font-size: 22px;
+}
 
+.spotify__top-nav_auth_login:hover{
+  cursor: pointer;
+  color: rgb(9,185,9);
+  background-color: rgb(32, 32, 32);
 }
