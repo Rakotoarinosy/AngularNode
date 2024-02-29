@@ -17,7 +17,7 @@
 .spotify__top-nav-auth {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
@@ -33,7 +33,7 @@
 }
 
 .spotify__top-nav_focus_title{
-  flex-basis: 600px;
+  flex-basis: 140px;
   margin-left: -200px;
   font-size: 22px;
 }
