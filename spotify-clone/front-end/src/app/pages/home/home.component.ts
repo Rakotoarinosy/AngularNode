@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { TopNavComponent } from "../../components/top-nav/top-nav.component";
 import { SongCardComponent } from "../../components/song-card/song-card.component";
 import { CommonModule } from '@angular/common';
+import { SearchBarService } from '../../services/searchbar.service';
 
 @Component({
     selector: 'app-home',
@@ -55,4 +56,7 @@ export class HomeComponent {
       description: 'Relax and inculge with beautiful piano',
     },
   ];
+
+  constructor(private sb: SearchBarService){}
+
 }
