@@ -59,4 +59,11 @@ export class HomeComponent {
 
   constructor(private sb: SearchBarService){}
 
+  onNavigation(pageName: string) {
+    if(pageName === 'search') {
+      this.sb.isSearchVisible.next(true);
+    } else {
+      this.sb.isSearchVisible.next(false);
+    }
+  }
 }

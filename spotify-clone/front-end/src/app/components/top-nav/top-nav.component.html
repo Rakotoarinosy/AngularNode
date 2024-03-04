@@ -3,7 +3,9 @@
     <ul class="spotify__to-nav_auth">
       <li><button class="forward_btn">⬅️</button></li>
       <li><button class="backward_btn">➡️</button></li>
-      <li><input class="search_playlist" type="search" name="" id="" placeholder="What do you want to listen to?"></li>
+      <li *ngIf="isSearchFieldVisible">
+        <input class="search_playlist" type="search" name="" id="" placeholder="What do you want to listen to?">
+      </li>
     </ul>
   </div>
   <div class="spotify__top-nav-auth">
