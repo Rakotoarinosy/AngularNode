@@ -22,5 +22,9 @@ export const routes: Routes = [
       title: 'Song',
       loadComponent: () => import('./pages/song/song.component').then(module => module.SongComponent)
     }]
-}
+  },
+  { path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  }
 ];
