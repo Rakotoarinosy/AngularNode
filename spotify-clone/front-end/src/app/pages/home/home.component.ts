@@ -19,6 +19,7 @@ export class HomeComponent {
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
+      song_link: 'assets/ma_woman.mp3'
     },
     { song_id:2,
       thumbnail:
@@ -58,7 +59,7 @@ export class HomeComponent {
     },
   ];
 
-  constructor(private sb: SearchBarService, private router:Router){}
+  constructor(public sb: SearchBarService, private router:Router){}
 
   onNavigation(pageName: string) {
     if(pageName === 'search') {
