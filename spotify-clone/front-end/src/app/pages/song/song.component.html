@@ -1,7 +1,10 @@
 <div class="mp3_player-container container-fluid">
-  <div class="mp3-player-card">
+  <div class="mp3-player-card" *ngIf="songData?.link">
     <audio controls [style.background]="'#1f1f1f'">
-      <source src="../assets/Ma_woman .mp3" type="audio/mpeg">
+      <source [src]="songData?.link" type="audio/mpeg">
     </audio>
+  </div>
+  <div class="mp3-player-card" *ngIf="!songData?.link">
+    <h1>No Song Data Avaible</h1>
   </div>
 </div>

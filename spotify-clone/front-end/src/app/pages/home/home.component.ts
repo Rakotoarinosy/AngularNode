@@ -19,43 +19,49 @@ export class HomeComponent {
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
-      song_link: 'assets/ma_woman.mp3'
+      song_link: '../../../assets/Ma_woman .mp3'
     },
     { song_id:2,
       thumbnail:
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
+      song_link: '',
     },
     { song_id:3,
       thumbnail:
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
+      song_link: '',
     },
     { song_id: 4,
       thumbnail:
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
+      song_link: '',
     },
     { song_id: 5,
       thumbnail:
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
+      song_link: '',
     },
     {song_id: 6,
       thumbnail:
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
+      song_link: '',
     },
     { song_id:7,
       thumbnail:
       'https://upload.wikimedia.org/wikipedia/commons/e/e8/Music_01754.jpg',
       title: 'REgional Songs',
       description: 'Relax and inculge with beautiful piano',
+      song_link: '',
     },
   ];
 
